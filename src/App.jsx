@@ -1,9 +1,12 @@
 import { useState } from 'react'
+import Signup from './components/Signup';
 
 const App = () => {
   return (
-    <div>App</div>
-  )
+    <>
+      <Signup />
+    </>
+  );
 }
 
 export default App
